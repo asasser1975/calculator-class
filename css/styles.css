@@ -1,7 +1,8 @@
-#result {
-  display:none;
+#output {
+  /*display: none;*/
+  color: blue;
 }
-.container {
+/*.container {
   width:50%;
   background-color:grey;
   margin: 20px;
@@ -22,14 +23,14 @@ span {
     float: left;
 }
 
-#answer {
+#output {
   color: blue;
 }
 
 div {
   padding-bottom: 5px;
 }
-
+*/
 button {
   margin-bottom: 15px;
 }
