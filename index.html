@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Calculator</title>
+    <title>Things</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
@@ -13,21 +13,26 @@
   </head>
   <body>
     <div class="container card">
-      <h1>Calculator</h1>
-      <div id="add">
+      <h1>Favorite Things</h1>
+      <div id="things">
         <form>
           <div class="form-group">
-            <label for="add1">#</label>
-            <span><input id="add1" class="form-control" type="text"></span>
+            <label for="thing1">Favorite Thing #1</label>
+            <span><input id="thing1" class="form-control" type="text"></span>
           </div>
           <div class="form-group">
-            <label for="add2">#</label>
-            <span><input id="add2" class="form-control" type="text"></span>
+            <label for="thing2">Favorite Thing #2</label>
+            <span><input id="thing2" class="form-control" type="text"></span>
           </div>
-          <button type="submit" class="btn btn-info">Add</button>
+          <div class="form-group">
+            <label for="thing3">Favorite Thing #3</label>
+            <span><input id="thing3" class="form-control" type="text"></span>
+          </div>
+          <button type="submit" class="btn btn-info">Go</button>
         </form>
       </div>
-      <div id="subtract">
+
+      <!-- <div id="subtract">
         <form>
           <div class="form-group">
             <label for="sub1">#</label>
@@ -65,12 +70,16 @@
           </div>
           <button type="submit" class="btn btn-info">Divide</button>
         </form>
-      </div>
+      </div> -->
     </div>
     &ensp;
     <div id="result"  class="container card">
      <h3 id="floatAnswer">The answer is:</h3>
-    <h3><span id="answer"></span></h3>
+    <h3>
+      <ul id="answer">
+        <li> something</li>
+      </ul>
+    </h3>
     </div>
   </body>
 </html>
